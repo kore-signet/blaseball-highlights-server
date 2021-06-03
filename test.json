@@ -1,0 +1,20 @@
+{
+  "user": {
+    "user_id": "",
+    "user_token": ""
+  },
+  "story": {
+    "title": "my super cool story",
+    "game_id": "fc0c4322-c2cc-4d37-b900-48e1711dc030"
+  },
+  "events": [
+    {
+      "blaseball_event_id": "fbe2a879-68e1-4247-a096-3a59e2acbea5",
+      "description": "owo what's that",
+      "visual": {
+        "type": "diamond",
+        "meta": {}
+      }
+    }
+  ]
+}
