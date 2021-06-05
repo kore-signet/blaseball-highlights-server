@@ -4,13 +4,13 @@ services:
     ports:
       - "8000:80"
     environment:
-      - DATABASE_URL=postgresql://highlights:@highlights_db/highlights
+      - DATABASE_URL=postgresql://highlights:dd89887782e219971425a862@highlights_db/highlights
 
   highlights_db:
     image: highlights_db
     environment:
       - POSTGRES_USER=highlights
-      - POSTGRES_PASSWORD=
+      - POSTGRES_PASSWORD=dd89887782e219971425a862
       - POSTGRES_DB=highlights
     volumes:
       - db_data:/var/lib/postgresql/data
